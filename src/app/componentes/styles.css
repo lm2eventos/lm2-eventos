@@ -1,0 +1,19 @@
+.menu {
+    width: 100% !important;
+    top: 0 !important;
+    margin: auto !important;
+    position: sticky !important;
+}
+
+.logo {
+    margin-right: 5px !important;
+    margin-left: 2px !important;
+}
+
+.navbar .logout {
+    cursor: pointer !important;
+}
+
+.navbar {
+    background-color: #2222229f !important;
+}

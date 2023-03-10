@@ -1,0 +1,97 @@
+.divider {
+    position: relative;
+    margin-top: 90px;
+    height: 1px;
+}
+
+
+body {
+    background-color: #e7e7e7 !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #f58f8f;
+    border-radius: 35px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f58f8f;
+    border-radius: 35px;
+
+}
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #f58f8f #F4F4F4;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #F4F4F4;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #f58f8f;
+    border-radius: 20px;
+    border: 3px solid #F4F4F4;
+}
+
+#toast-container>div {
+    opacity: 1;
+}
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 30vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #d6d6d6;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Aguarde {
+    margin-top: 95px;
+    color: red;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

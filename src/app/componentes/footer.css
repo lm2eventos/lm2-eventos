@@ -1,0 +1,30 @@
+.rodape {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #ffff;
+    text-align: center;
+    background-color: #2222229f !important;
+
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.topo {
+    color: #ffff;
+
+}
+
+.topo:hover {
+    color: #b1b0b0ea;
+}
+
+#texto {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+#ano {
+    font-size: 16px;
+}
