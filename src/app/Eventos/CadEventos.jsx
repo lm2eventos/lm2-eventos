@@ -57,6 +57,7 @@ function CadEvento() {
                 document.getElementById('nomeResponsavel').value = '';
                 document.getElementById('linkInscricao').value = '';
                 document.getElementById('telefone').value = '';
+                Loading.hide();
                 toastr.success('Evento Enviada Com Sucesso', 'Sucesso')
             }
             else {
