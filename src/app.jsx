@@ -5,6 +5,7 @@ import { AuthContext } from './app/Context/auth.jsx';
 
 /* Paginas */
 import home from './app/home/site.jsx';
+import EventosCad from './app/Eventos/CadEventos.jsx';
 import ddf from './app/teste.jsx';
 
 /*Soluções*/
@@ -26,6 +27,7 @@ function App() {
     <Switch>
       <Route exact path='/' component={home} />
       <Route exact path='/dd' component={ddf} />
+      <Route exact path='/Eventos' component={EventosCad} />
       <Route exact path='*' component={home} />
 
     </Switch>

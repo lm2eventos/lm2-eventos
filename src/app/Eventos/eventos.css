@@ -1,0 +1,10 @@
+.btnEnviar {
+    background-color: #f58f8f;
+    color: white;
+
+}
+
+.btnEnviar:hover {
+    background-color: #f56d6d;
+    color: white;
+}

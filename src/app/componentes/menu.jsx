@@ -19,7 +19,7 @@ function Menu() {
                         <a href="/" className="nav-link active">Início</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/contato" className="nav-link active">Eventos</a>
+                        <a href="/eventos" className="nav-link active">Eventos</a>
                     </li>
 
                     <li className="nav-item dropdown">
