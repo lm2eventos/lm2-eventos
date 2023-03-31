@@ -74,7 +74,7 @@ function CadEvento() {
 
     return <div>
         <Menu />
-        <div className='container'>
+        <div className='container corpo'>
             <h1 className='text-center mt-2'> Cadastro Evento</h1>
             <div className='row mt-5'>
                 <div className="row gx-3">
