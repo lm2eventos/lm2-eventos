@@ -39,7 +39,7 @@ function CadEvento() {
     function CadastrarEvento() {
         const data = document.getElementById('dataEvento').value; // assume que a data é "11/10/2023"
         const mes = data.split('-')[1];
-        api.post('/cidades', {
+        api.post('/eventos', {
             "Data_Evento": document.getElementById('dataEvento').value,
             "Nome_Evento": document.getElementById('nomeEvento').value,
             "Id_Cidade_Evento": parseInt(idCidade),
