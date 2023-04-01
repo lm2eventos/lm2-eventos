@@ -1,14 +1,14 @@
 .btnEnviar {
-    background-color: #f58f8f !important;
-    color: white  !important;
+    background-color: #f15d5d !important;
+    color: white !important;
 
 }
 
 .btnEnviar:hover {
-    background-color: #f56d6d  !important;
-    color: white  !important;
+    background-color: #ff8585 !important;
+    color: white !important;
 }
 
-.corpo{
-    height: 100vh !important;
+.corpo {
+    height: 90vh !important;
 }
