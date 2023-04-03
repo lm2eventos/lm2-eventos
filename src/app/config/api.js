@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: "https://api-express.bohr.io/api",
+    baseURL: "https://api.softwareplus.com.br/api",
     //baseURL: "http://192.168.0.147:9000/AreaCliente",
     // auth: {
     //     username: 'Alysson',
